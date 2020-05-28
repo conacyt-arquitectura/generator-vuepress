@@ -1,6 +1,6 @@
 {
-  "name": "@conacyt/generator-vuepress",
-  "version": "0.0.1",
+  "name": "generator-vuepress",
+  "version": "0.0.2",
   "description": "El generador de sitio de documentación usando VuePress",
   "author": {
     "name": "Roberto Villarejo Martínez",
