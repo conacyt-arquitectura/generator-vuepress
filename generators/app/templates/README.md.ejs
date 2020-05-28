@@ -1,0 +1,30 @@
+# <%=name%>
+
+<% if(typeof packageJson !== 'undefined') { %><%=packageJson.description%><% } %>
+
+## Empezando
+Instalación y primeros pasos.
+
+## Uso
+
+```html
+<div id="app">
+    <<%=nameKebab%>><<%=nameKebab%>/>
+</div>
+```
+
+```typescript
+export default Vue.extend({
+    components: { "<%=nameKebab%>": <%=name%>Component }
+});
+```
+
+### Ejemplo funcionando
+
+<example/>
+
+## Desarrollo
+Instrucciones para dar mantenimiento al proyecto.
+
+## Construcción
+Instrucciones para construir el proyecto.
