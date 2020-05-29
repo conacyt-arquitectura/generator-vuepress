@@ -3,12 +3,20 @@
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-vuepress using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, use the CONACYT npm registry.  
+`npm config set registry https://artifacts.ccd.conacyt.mx/content/groups/npm/`
+
+Then, install [Yeoman](http://yeoman.io) and generator-vuepress using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+
+Clone and link this project.
 
 ```bash
-npm install -g yo
-npm install -g @conacyt/generator-vuepress
+git clone https://scm.ccd.conacyt.mx/componentes/generator-vuejs-typescript-component
+cd generator-vuejs-typescript-component
+npm link
 ```
+
+# Usage
 
 Then generate your new project:
 
